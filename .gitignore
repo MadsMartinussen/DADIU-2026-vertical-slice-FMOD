@@ -1,0 +1,18 @@
+# FMOD Studio — first version for GitHub
+# Put this file next to your .fspro and rename it to .gitignore if needed.
+
+# Local / generated
+.cache/
+.user/
+.unsaved/
+.restore/
+.recycle/
+.fsbcache/
+*.fspro.bak
+*.fspro~
+
+# Profiler captures (keep Metadata/ProfilerFolder)
+Metadata/ProfilerSession/
+
+# Built banks — remove these two lines if someone without Studio needs banks from Git
+Build/
