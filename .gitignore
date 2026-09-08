@@ -17,3 +17,4 @@ Metadata/ProfilerSession/
 # Built banks — remove these two lines if someone without Studio needs banks from Git
 Build/
 .user/Metadata/Workspace.user.xml
+.cache
