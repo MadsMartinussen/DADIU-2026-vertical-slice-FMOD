@@ -4,8 +4,8 @@
 		<relationship name="projectSettings">
 			<destination>{08660ece-b02a-4a6a-8f3f-5a5f467c2b11}</destination>
 		</relationship>
-		<relationship name="sourceControlProvider">
-			<destination>{7a34952b-add8-49f5-a5aa-98d5cdd71126}</destination>
+		<relationship name="changelist">
+			<destination>{107f9681-26f4-4913-8719-7d3f6f6b20d9}</destination>
 		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{08660ece-b02a-4a6a-8f3f-5a5f467c2b11}">
@@ -13,19 +13,5 @@
 			<destination>{2cbbe67f-61f6-4313-b3ff-3b78644478c4}</destination>
 		</relationship>
 	</object>
-	<object class="PerforceProvider" id="{7a34952b-add8-49f5-a5aa-98d5cdd71126}">
-		<property name="workspaceName">
-			<value>Madss-MacBook-Pro</value>
-		</property>
-		<property name="p4Port">
-			<value>perforce:1666</value>
-		</property>
-		<property name="p4Host">
-			<value>Madss-MacBook-Pro.local</value>
-		</property>
-		<property name="p4Charset" />
-		<property name="p4User" />
-		<property name="p4Password" />
-		<property name="p4WorkspaceForm" />
-	</object>
+	<object class="WorkspaceChangelist" id="{107f9681-26f4-4913-8719-7d3f6f6b20d9}" />
 </objects>
