@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b1aebc58-6b33-421a-9073-ea8b290683b3}">
+		<property name="name">
+			<value>RiftProximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{db87fef2-7bb5-4d15-ae8b-b885fed26c72}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d893c9fa-5759-4f58-b7d7-035f6279293b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d893c9fa-5759-4f58-b7d7-035f6279293b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6d1cfd6e-660c-4ac4-9c07-0334a40de104}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{6d1cfd6e-660c-4ac4-9c07-0334a40de104}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.34999999403953552</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

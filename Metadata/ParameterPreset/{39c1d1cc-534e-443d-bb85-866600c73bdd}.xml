@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{39c1d1cc-534e-443d-bb85-866600c73bdd}">
+		<property name="name">
+			<value>TEMPParameter_LightIsOn</value>
+		</property>
+		<relationship name="folder">
+			<destination>{db87fef2-7bb5-4d15-ae8b-b885fed26c72}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ff4ebdb1-9294-4e4d-9439-4b313562f3f4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ff4ebdb1-9294-4e4d-9439-4b313562f3f4}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
