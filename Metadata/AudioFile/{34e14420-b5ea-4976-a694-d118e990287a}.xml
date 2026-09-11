@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{34e14420-b5ea-4976-a694-d118e990287a}">
+		<property name="assetPath">
+			<value>Music/2006 Puzzle/Piano.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>49.635416666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>
+		</relationship>
+	</object>
+</objects>

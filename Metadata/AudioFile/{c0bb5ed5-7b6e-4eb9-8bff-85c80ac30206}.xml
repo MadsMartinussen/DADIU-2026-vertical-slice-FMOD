@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c0bb5ed5-7b6e-4eb9-8bff-85c80ac30206}">
+		<property name="assetPath">
+			<value>Music/2006 Puzzle/PianoPad_LightOn.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.208333333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>
+		</relationship>
+	</object>
+</objects>
