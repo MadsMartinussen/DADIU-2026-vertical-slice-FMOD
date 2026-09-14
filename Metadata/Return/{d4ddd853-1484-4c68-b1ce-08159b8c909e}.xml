@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{d4ddd853-1484-4c68-b1ce-08159b8c909e}">
+		<property name="name">
+			<value>Concrete Room Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7270d71c-c339-42ce-8a5c-0bd580ce1ba5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4f6a3dac-d1a5-44c4-b8ba-8b874590afba}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{38519dd0-9aa7-43bf-adfb-9ca29630866f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7270d71c-c339-42ce-8a5c-0bd580ce1ba5}">
+		<relationship name="effects">
+			<destination>{63372620-6aeb-4378-b4cb-9a472dc8e8b0}</destination>
+			<destination>{4e6a3161-9510-482f-81e1-9d00fa421337}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4f6a3dac-d1a5-44c4-b8ba-8b874590afba}" />
+	<object class="MixerBusFader" id="{63372620-6aeb-4378-b4cb-9a472dc8e8b0}" />
+	<object class="SFXReverbEffect" id="{4e6a3161-9510-482f-81e1-9d00fa421337}">
+		<property name="decayTime">
+			<value>270</value>
+		</property>
+		<property name="earlyDelay">
+			<value>13</value>
+		</property>
+		<property name="lateDelay">
+			<value>20</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>79</value>
+		</property>
+		<property name="highCut">
+			<value>9000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>86</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0143bf9e-39b8-44fe-aafa-3988a7d634af}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{72c52a14-c537-404c-ab1f-b67d6f5ea9f1}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0143bf9e-39b8-44fe-aafa-3988a7d634af}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>earlyLateMix</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{149e61fb-d706-485f-9d32-33625758eeba}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{72c52a14-c537-404c-ab1f-b67d6f5ea9f1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>earlyLateMix</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.98999994993209839</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{149e61fb-d706-485f-9d32-33625758eeba}">
+		<relationship name="parameter">
+			<destination>{34d1d8ed-e965-4f11-a3ac-f915fa84a28a}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{45e2b408-afb6-4e9a-81b2-31dfdc58ced4}</destination>
+			<destination>{6a0d22cc-def7-40db-93b3-d54a06490d29}</destination>
+			<destination>{7d3863f8-3798-4862-823a-58892e073f48}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{45e2b408-afb6-4e9a-81b2-31dfdc58ced4}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>26</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6a0d22cc-def7-40db-93b3-d54a06490d29}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>50</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7d3863f8-3798-4862-823a-58892e073f48}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>78</value>
+		</property>
+	</object>
+</objects>

@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{5b2c660d-ede3-4b70-b24d-aceb32853609}">
+	<object class="ParameterPreset" id="{241e4afd-dcef-43a7-9487-975df35567a6}">
 		<property name="name">
-			<value>Reverb Type</value>
+			<value>Distance</value>
 		</property>
 		<relationship name="folder">
 			<destination>{db87fef2-7bb5-4d15-ae8b-b885fed26c72}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{9ef08038-40dc-4a7d-91c3-71d6d23b8423}</destination>
+			<destination>{f5512327-47cd-497b-9e8f-f9dffff2cb49}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{9ef08038-40dc-4a7d-91c3-71d6d23b8423}">
+	<object class="GameParameter" id="{f5512327-47cd-497b-9e8f-f9dffff2cb49}">
 		<property name="parameterType">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>5</value>
-		</property>
-		<property name="enumerationLabels">
-			<value>Carpet</value>
-			<value>Wood</value>
-			<value>Tiles</value>
-			<value>Stairs</value>
-			<value>Concrete</value>
-		</property>
-		<property name="isGlobal">
-			<value>true</value>
+			<value>20</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

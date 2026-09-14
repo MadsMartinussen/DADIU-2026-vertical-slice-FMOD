@@ -44,5 +44,61 @@
 		<property name="dryLevel">
 			<value>-80</value>
 		</property>
+		<relationship name="automators">
+			<destination>{1a950ef1-4f16-4b33-8de9-40e49177f606}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{7c965ad5-fc0e-4753-8c8c-65e1070928a0}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{1a950ef1-4f16-4b33-8de9-40e49177f606}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>earlyLateMix</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{c5a43371-b599-46cc-b722-3577807109d2}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{7c965ad5-fc0e-4753-8c8c-65e1070928a0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>earlyLateMix</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.96999996900558472</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{c5a43371-b599-46cc-b722-3577807109d2}">
+		<relationship name="parameter">
+			<destination>{34d1d8ed-e965-4f11-a3ac-f915fa84a28a}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{00dfbe5d-dc3d-4cc1-bfc8-f1c0780b28c6}</destination>
+			<destination>{02083d40-c8de-4e59-91da-7121abd1d9a6}</destination>
+			<destination>{9ce60767-1f94-4986-941b-ac551c4347a4}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{00dfbe5d-dc3d-4cc1-bfc8-f1c0780b28c6}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>24</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{02083d40-c8de-4e59-91da-7121abd1d9a6}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>50</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9ce60767-1f94-4986-941b-ac551c4347a4}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>76</value>
+		</property>
 	</object>
 </objects>

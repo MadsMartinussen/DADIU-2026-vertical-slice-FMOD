@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{19235404-b447-45ae-acff-f41ee05b44f0}">
+		<property name="assetPath">
+			<value>SFX/VO_oliver_i_cant_reach_it_maybe_if_i_had_something_to_stand_on_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.1888435374149662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -39,10 +39,66 @@
 			<value>2900</value>
 		</property>
 		<property name="earlyLateMix">
-			<value>83</value>
+			<value>28</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0c1c31d8-72dc-4d7b-93b8-761937beb52d}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{775f0bc9-464e-4f4e-a0fd-c7f4c865a1ba}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0c1c31d8-72dc-4d7b-93b8-761937beb52d}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>earlyLateMix</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{ccef137a-fb87-4e0d-b3a5-7e23f80c70d3}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{775f0bc9-464e-4f4e-a0fd-c7f4c865a1ba}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>earlyLateMix</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.93999999761581421</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{ccef137a-fb87-4e0d-b3a5-7e23f80c70d3}">
+		<relationship name="parameter">
+			<destination>{34d1d8ed-e965-4f11-a3ac-f915fa84a28a}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{7535cf31-3efe-495c-ab13-6664aa2a2d3b}</destination>
+			<destination>{b4f70baa-15fd-4b51-81da-68fda5ef4843}</destination>
+			<destination>{f71b6b27-869e-4b6e-97fa-cd8b0e9d6ece}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{7535cf31-3efe-495c-ab13-6664aa2a2d3b}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>28</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b4f70baa-15fd-4b51-81da-68fda5ef4843}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>50</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f71b6b27-869e-4b6e-97fa-cd8b0e9d6ece}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>78</value>
 		</property>
 	</object>
 </objects>
