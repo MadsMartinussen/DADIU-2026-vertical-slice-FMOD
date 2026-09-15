@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c0bb5ed5-7b6e-4eb9-8bff-85c80ac30206}">
+	<object class="AudioFile" id="{094467ec-72ea-4121-bc42-df72acefdc50}">
 		<property name="assetPath">
-			<value>Music/2006 Puzzle/PianoPad_LightOn.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Music/2006 Puzzle/Intro/Piano Pad Intro #2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>99.5</value>
+			<value>9.5104081632653052</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>

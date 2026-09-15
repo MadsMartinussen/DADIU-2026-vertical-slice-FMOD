@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{39c1d1cc-534e-443d-bb85-866600c73bdd}">
+	<object class="ParameterPreset" id="{21343b42-cec2-4084-8830-75d21c4f280e}">
 		<property name="name">
-			<value>LightIsOn</value>
+			<value>2006PuzzleIsComplete</value>
 		</property>
 		<relationship name="folder">
 			<destination>{db87fef2-7bb5-4d15-ae8b-b885fed26c72}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{ff4ebdb1-9294-4e4d-9439-4b313562f3f4}</destination>
+			<destination>{316cfa9a-df79-415b-9b19-15a040c9b399}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{ff4ebdb1-9294-4e4d-9439-4b313562f3f4}">
+	<object class="GameParameter" id="{316cfa9a-df79-415b-9b19-15a040c9b399}">
 		<property name="parameterType">
 			<value>1</value>
 		</property>
