@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0d0fd1f5-7913-42f6-83d4-b8e9a3e25ef5}">
+		<property name="assetPath">
+			<value>SFX/Object Drag/Materials/Carpet/Carpet Drag/CarpetDrag1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9054375000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>
+		</relationship>
+	</object>
+</objects>

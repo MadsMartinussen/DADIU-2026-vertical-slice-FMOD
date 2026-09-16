@@ -71,7 +71,7 @@
 			<destination>{73a735cf-feb1-4466-87d7-53c443c6e1e5}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{390c7ecc-9605-46eb-a09f-661b76399b72}</destination>
+			<destination>{84b8cbb1-4d5c-4a67-8116-6d01784b98da}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{27807b79-bde3-4c80-9468-eb4e00af7107}" />
@@ -765,7 +765,7 @@
 			<value>54</value>
 		</property>
 		<property name="length">
-			<value>96</value>
+			<value>96.006176602316401</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{78509302-597c-4266-a472-da9c1c7698a7}</destination>
@@ -839,7 +839,7 @@
 			<value>54</value>
 		</property>
 		<property name="length">
-			<value>96</value>
+			<value>96.006176602316401</value>
 		</property>
 		<property name="quantizationInterval">
 			<value>1</value>
@@ -1012,9 +1012,6 @@
 		</relationship>
 		<relationship name="endPoint">
 			<destination>{3eb91246-10e9-4da3-a4f8-c06892440d28}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{f42541af-7b29-4394-900e-f5509443c84f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ca060755-0323-4217-8be9-1d2d0d07f389}">
@@ -1557,7 +1554,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3eb91246-10e9-4da3-a4f8-c06892440d28}">
 		<property name="position">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>1</value>

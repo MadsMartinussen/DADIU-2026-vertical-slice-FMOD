@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{d10235ba-03d9-4d5b-83f1-a6f2f221fa57}">
+		<property name="name">
+			<value>Medium Room</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{91a21520-e4be-40be-ac82-1a344ef93f6d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{701f2526-0ecd-4f07-a2d9-cb2ca2d5d397}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{38519dd0-9aa7-43bf-adfb-9ca29630866f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{91a21520-e4be-40be-ac82-1a344ef93f6d}">
+		<relationship name="effects">
+			<destination>{7642fbf1-b3cc-40f3-a2f0-4d14c2711aba}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{701f2526-0ecd-4f07-a2d9-cb2ca2d5d397}" />
+	<object class="MixerBusFader" id="{7642fbf1-b3cc-40f3-a2f0-4d14c2711aba}" />
+</objects>

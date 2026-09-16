@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{1fe0173e-e8e6-428c-86fc-4f87f13efa55}">
+		<property name="name">
+			<value>Small Room</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2f1219b3-99c6-4ac6-868f-dd5022a7cc25}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{82b11215-b256-4cf0-bad6-baee42fb0315}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{38519dd0-9aa7-43bf-adfb-9ca29630866f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2f1219b3-99c6-4ac6-868f-dd5022a7cc25}">
+		<relationship name="effects">
+			<destination>{9c18f4d6-3793-40a7-828e-53428c4fd2f5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{82b11215-b256-4cf0-bad6-baee42fb0315}" />
+	<object class="MixerBusFader" id="{9c18f4d6-3793-40a7-828e-53428c4fd2f5}" />
+</objects>
