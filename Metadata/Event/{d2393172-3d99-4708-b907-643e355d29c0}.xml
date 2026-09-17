@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d2393172-3d99-4708-b907-643e355d29c0}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>Push &amp; Pull</value>
 		</property>
@@ -336,9 +339,6 @@
 		<property name="name">
 			<value>DragEvents</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{7fddad55-f516-4403-bb2d-6a61a1b00723}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{b7c05cf0-2bf4-47c0-9b48-657b43d169b5}</destination>
 		</relationship>
@@ -718,17 +718,6 @@
 			<destination>{8f7a2ace-3faa-49e7-baf7-14baff939891}</destination>
 		</relationship>
 	</object>
-	<object class="SeekModulator" id="{7fddad55-f516-4403-bb2d-6a61a1b00723}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="speedAscending">
-			<value>3</value>
-		</property>
-		<property name="asymmetric">
-			<value>true</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{b7c05cf0-2bf4-47c0-9b48-657b43d169b5}">
 		<relationship name="effects">
 			<destination>{0657e091-448c-4e66-a00f-ef5cf90d6973}</destination>
@@ -738,6 +727,7 @@
 	<object class="MixerBusEffectChain" id="{aa3fb906-9a1a-44c0-bfb0-3ddb2352a405}">
 		<relationship name="effects">
 			<destination>{216e9826-ae4d-4e38-973c-5ac08c46759b}</destination>
+			<destination>{b9e1ffdc-be72-4145-a9b5-f68d3bc010d2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{070c6dcb-ec3a-4433-b682-3f9c40c5454d}" />
@@ -1112,6 +1102,7 @@
 	</object>
 	<object class="MixerBusFader" id="{0657e091-448c-4e66-a00f-ef5cf90d6973}" />
 	<object class="MixerBusFader" id="{216e9826-ae4d-4e38-973c-5ac08c46759b}" />
+	<object class="SpatialiserEffect" id="{b9e1ffdc-be72-4145-a9b5-f68d3bc010d2}" />
 	<object class="AutomationPoint" id="{3e41decb-a8c6-41e3-8f25-e85a5d384fb1}">
 		<property name="position">
 			<value>0</value>

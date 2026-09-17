@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a07b75ad-b611-41de-abc4-a746b8c38767}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>TileDrag</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4dbc91b1-06ee-4a3b-ba7b-781edf44216b}</destination>
@@ -77,9 +80,11 @@
 	<object class="MixerBusEffectChain" id="{ad36b57e-10dc-4707-b7e2-d072017892de}">
 		<relationship name="effects">
 			<destination>{9bcb49e4-89fc-49bb-87e2-5e5b324e4208}</destination>
+			<destination>{020903c2-b535-46b4-9c54-dfd2a3a39994}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1dd8f096-c8f3-4c66-930c-a9402baf6bf9}" />
 	<object class="MixerBusFader" id="{b6d9d683-07ec-47a4-935b-32d3596e48a3}" />
 	<object class="MixerBusFader" id="{9bcb49e4-89fc-49bb-87e2-5e5b324e4208}" />
+	<object class="SpatialiserEffect" id="{020903c2-b535-46b4-9c54-dfd2a3a39994}" />
 </objects>

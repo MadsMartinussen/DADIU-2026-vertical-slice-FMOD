@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b2882440-a724-49e6-8415-cb2335e09799}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>WallIsHit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4dbc91b1-06ee-4a3b-ba7b-781edf44216b}</destination>
@@ -102,6 +105,7 @@
 	<object class="MixerBusEffectChain" id="{893774e1-eec8-4f39-8628-697cdba8e2a0}">
 		<relationship name="effects">
 			<destination>{51868fab-ba90-473c-ac5e-4dd7b6632a73}</destination>
+			<destination>{facb954f-3c93-4394-8646-b19115698e64}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4bb02418-eb60-4eeb-899d-3b95870b8e25}" />
@@ -137,6 +141,7 @@
 	</object>
 	<object class="MixerBusFader" id="{41f0c0ae-fc5c-42f7-97d6-48b1e99bf7ca}" />
 	<object class="MixerBusFader" id="{51868fab-ba90-473c-ac5e-4dd7b6632a73}" />
+	<object class="SpatialiserEffect" id="{facb954f-3c93-4394-8646-b19115698e64}" />
 	<object class="Automator" id="{f1b2308b-0e24-4d09-98fb-f2e2c1b1b991}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>

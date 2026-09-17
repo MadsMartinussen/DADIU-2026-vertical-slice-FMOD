@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9e0d3718-1269-4c35-acdf-91cd1d7a3dca}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>WoodDrag</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4dbc91b1-06ee-4a3b-ba7b-781edf44216b}</destination>
@@ -538,6 +541,7 @@
 	<object class="MixerBusEffectChain" id="{f61dbec3-bc8a-4b6b-b316-21075b751a89}">
 		<relationship name="effects">
 			<destination>{1f975320-4a4b-4b57-b3e0-91b45d59f420}</destination>
+			<destination>{c441c8ce-b291-4716-aed4-8effa035d201}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e4225988-1ffb-4afa-89a1-5206de8e1151}" />
@@ -1260,6 +1264,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1f975320-4a4b-4b57-b3e0-91b45d59f420}" />
+	<object class="SpatialiserEffect" id="{c441c8ce-b291-4716-aed4-8effa035d201}" />
 	<object class="AutomationPoint" id="{9eb40145-c270-4078-bbc9-e4410cc8022c}">
 		<property name="position">
 			<value>0</value>
