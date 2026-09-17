@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2a646d9f-6cf7-4801-a387-443a019660ca}</destination>
+			<destination>{4dbc91b1-06ee-4a3b-ba7b-781edf44216b}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{38e115ca-886e-495d-8801-ef730b5b9fe1}</destination>
@@ -115,7 +115,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{5e9ee72e-e7cb-47de-9323-f9112dcefd69}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{c7900e2c-3311-4494-ab32-799222534bae}</destination>
@@ -447,6 +447,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d40c4cd3-bf23-4403-a3d7-2167c1ea7b26}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -1796,17 +1799,29 @@
 		<property name="filterTypeB">
 			<value>4</value>
 		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
 		<property name="frequencyA">
 			<value>2299.42065</value>
 		</property>
 		<property name="frequencyB">
-			<value>67.9084778</value>
+			<value>85</value>
+		</property>
+		<property name="frequencyC">
+			<value>310</value>
 		</property>
 		<property name="qualityA">
 			<value>0.665137947</value>
 		</property>
 		<property name="qualityB">
-			<value>1.15286207</value>
+			<value>0.539999962</value>
+		</property>
+		<property name="qualityC">
+			<value>0.900000036</value>
+		</property>
+		<property name="gainC">
+			<value>-21.5</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{4b4ba482-0b74-4def-880b-78ee09775320}">
