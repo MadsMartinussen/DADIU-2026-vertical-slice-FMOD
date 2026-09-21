@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3913239c-1db3-4ecb-86b4-57fc06f4dd21}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>RiftProximity_Layer</value>
 		</property>
@@ -574,7 +577,7 @@
 			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.579935968</value>
+			<value>-0.57993573</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{65de4743-194c-442c-bbb0-87d63985b78d}">
@@ -582,7 +585,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-8</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7ff77819-eacb-4f4c-a52f-4862829c25f7}">
@@ -593,7 +596,7 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>0.546743155</value>
+			<value>0.217983171</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ca457635-ebaf-4190-b58d-a3f59d4269d0}">
@@ -627,7 +630,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-20</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6052fa66-9df3-46d2-b99a-df3d81a232eb}">
@@ -648,13 +651,16 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+		<property name="curveShape">
+			<value>-0.39858073</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{23966b06-95eb-4d50-9af6-18562c1cdaf6}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0.699999988</value>
+			<value>0.5</value>
 		</property>
 	</object>
 </objects>

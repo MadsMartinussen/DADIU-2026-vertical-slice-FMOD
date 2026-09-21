@@ -1811,7 +1811,7 @@
 			<value>2299.42065</value>
 		</property>
 		<property name="frequencyB">
-			<value>85</value>
+			<value>220</value>
 		</property>
 		<property name="frequencyC">
 			<value>310</value>
