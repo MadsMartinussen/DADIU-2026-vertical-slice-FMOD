@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cf954621-d282-402c-8f0a-e788c9448b42}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Inspect Item</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{e29dde0c-a5a9-42e1-8e0b-03f665c04812}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{f4af9d58-d961-4afa-8dc4-5f4fcb2d6c1e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{9d9d9c9e-2797-4d39-8a68-9b64c43708f9}">
@@ -104,20 +110,26 @@
 			<value>4</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{a6ec5cf1-e9f3-483c-891c-01b973c3f15f}</destination>
-			<destination>{0b1a1a9e-2075-45a4-9d6b-46bc19436474}</destination>
+			<destination>{c1868b41-5aaa-45b4-9fcf-0fe182d6a4b1}</destination>
+			<destination>{c3ba0fca-ba0b-46c8-8aa2-7fdd486b3936}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{fef0e39a-2094-44ed-b2e7-12826f9cbb5d}" />
 	<object class="MixerBusFader" id="{753890f7-0f18-4201-8fae-1b78e22b6b85}" />
-	<object class="SingleSound" id="{a6ec5cf1-e9f3-483c-891c-01b973c3f15f}">
+	<object class="SingleSound" id="{c1868b41-5aaa-45b4-9fcf-0fe182d6a4b1}">
+		<property name="startOffset">
+			<value>11.5</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{e042096c-6cc1-4080-b4b1-d978b527f183}</destination>
+			<destination>{328e116b-f0c5-47cf-b2ec-1271c4c106ee}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{0b1a1a9e-2075-45a4-9d6b-46bc19436474}">
+	<object class="SingleSound" id="{c3ba0fca-ba0b-46c8-8aa2-7fdd486b3936}">
+		<property name="startOffset">
+			<value>12</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{d13176c8-1b6e-4c23-9c8f-be08639bc962}</destination>
+			<destination>{ca7d15a7-b19c-4116-9637-df202e26b090}</destination>
 		</relationship>
 	</object>
 </objects>
