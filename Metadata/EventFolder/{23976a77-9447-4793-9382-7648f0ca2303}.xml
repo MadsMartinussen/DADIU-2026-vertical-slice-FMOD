@@ -5,7 +5,7 @@
 			<value>Red</value>
 		</property>
 		<property name="name">
-			<value>Rift</value>
+			<value>Inspect</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a29f01b7-8ffd-4f12-a655-bd7fecbc3faf}</destination>
