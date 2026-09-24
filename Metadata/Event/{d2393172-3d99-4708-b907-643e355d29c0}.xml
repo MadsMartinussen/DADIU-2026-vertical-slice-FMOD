@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d2393172-3d99-4708-b907-643e355d29c0}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Push &amp; Pull</value>
@@ -254,6 +254,9 @@
 		<property name="length">
 			<value>16</value>
 		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="event">
 			<destination>{d76f8654-de6c-4dd1-b169-902738fc12db}</destination>
 		</relationship>
@@ -321,6 +324,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{00ae7497-9173-4b29-91d4-49201aca148c}">
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<property name="name">
 			<value>DragEvents</value>
 		</property>
@@ -972,7 +978,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="Automator" id="{2dd7134f-a72d-44bd-a602-79b8e0ea285f}">

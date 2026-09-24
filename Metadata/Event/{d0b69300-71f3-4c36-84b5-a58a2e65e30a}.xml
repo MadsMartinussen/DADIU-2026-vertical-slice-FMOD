@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d0b69300-71f3-4c36-84b5-a58a2e65e30a}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Light Switch On-Off Click</value>
@@ -59,7 +59,7 @@
 			<destination>{4e7f9ca2-fa92-4012-b7b6-2648310f0c45}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{390c7ecc-9605-46eb-a09f-661b76399b72}</destination>
+			<destination>{a1a7d899-f7f3-4a96-b2e0-2e6e6fca5fdd}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{71a80ce4-b841-4b7a-9bb8-92a367115034}" />

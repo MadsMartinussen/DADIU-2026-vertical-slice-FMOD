@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{15c05720-3335-4b0a-ae8b-db77a30c2578}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>Calendar</value>
@@ -59,7 +59,7 @@
 			<destination>{52b56358-579e-4a89-b9ca-784ce24d7369}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{390c7ecc-9605-46eb-a09f-661b76399b72}</destination>
+			<destination>{a1a7d899-f7f3-4a96-b2e0-2e6e6fca5fdd}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{594645b8-b229-4659-bbe2-53b55a7533bf}" />
@@ -103,6 +103,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{eef739af-92fc-430f-81f2-fbe90be2571b}" />
 	<object class="MultiSound" id="{a3d49952-2d55-4f9e-818f-70d3c3fbe286}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="playlistMode">
 			<value>4</value>
 		</property>

@@ -298,6 +298,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{086cc9bb-948e-4e05-bb77-0d86d5893c2f}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>42.000000000000007</value>
 		</property>
@@ -312,6 +315,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c34d751e-851f-4210-8a93-74057001285e}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>36.000000000000021</value>
 		</property>
@@ -326,6 +332,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{995add20-c407-4be7-a359-85d2f2e8bbfa}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>30.000000000000007</value>
 		</property>
@@ -340,6 +349,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{10c03508-6dd8-4c1c-a225-04622dbda361}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>24.000000000000007</value>
 		</property>
@@ -354,6 +366,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{9d086780-8135-4cea-9933-bf8fac323f1f}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>18.000000000000014</value>
 		</property>
@@ -368,6 +383,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5a356536-d070-4fc7-8413-a81c61c40a81}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>12.000000000000009</value>
 		</property>
@@ -382,6 +400,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{feb41671-b185-4c7c-ac24-59ca0cc87b3d}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>6.0000000000000071</value>
 		</property>
@@ -396,6 +417,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1303c3d7-a136-430f-a41d-e275e03272ce}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>7.1054273576010019e-15</value>
 		</property>
@@ -410,6 +434,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{aa2118ed-9fa4-4ecd-8002-68596f280ca0}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>48.000000000000007</value>
 		</property>
@@ -424,6 +451,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c67917bc-30da-4551-9fba-77a15e2ab42b}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>54.000000000000007</value>
 		</property>
@@ -438,6 +468,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{fa651eff-4869-493e-85fb-17e1c04d0c2d}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>60</value>
 		</property>
@@ -452,6 +485,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{9155d70d-ebbb-4c10-b9e7-c700d5fb831e}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>66</value>
 		</property>
@@ -466,6 +502,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{545367e2-c2a9-4718-a538-5c9c02cbabf3}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>72</value>
 		</property>
@@ -480,6 +519,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{00e6e122-ad38-449d-8571-b4106afd55bf}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>78</value>
 		</property>
@@ -494,6 +536,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{54d28b9f-18ed-4b24-9f18-540a54c5c100}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>84</value>
 		</property>
@@ -508,6 +553,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{01d60d28-58fd-452f-a5f1-20d784ce050c}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>90</value>
 		</property>
@@ -1630,6 +1678,9 @@
 		<property name="length">
 			<value>120</value>
 		</property>
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<relationship name="event">
 			<destination>{3913239c-1db3-4ecb-86b4-57fc06f4dd21}</destination>
 		</relationship>
@@ -2122,7 +2173,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-9</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c0ac789d-63aa-4af9-842d-c1d1f1a80726}">
@@ -2138,7 +2189,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{81dc2346-e35d-4db6-a37a-06677d93b0c1}">
@@ -2154,7 +2205,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f22bca47-fb7e-47b1-b9b9-3b99edee8192}">
@@ -2162,7 +2213,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{14664567-6c43-466d-b08d-ee7a86020150}">
@@ -2170,7 +2221,7 @@
 			<value>0.5</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{bb934d97-3999-4307-9cc0-eeca86c15ef6}">
@@ -2186,7 +2237,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6760a261-9188-4cfc-ab44-bda1f5a82e05}">
@@ -2202,7 +2253,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>8</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e8a66797-a02a-4ad6-8dd0-5075ad0b383a}">
@@ -2210,7 +2261,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d28a1050-1ad4-4ab6-a2cb-1ccc30014eb2}">
@@ -2218,7 +2269,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>

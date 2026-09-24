@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{84b8cbb1-4d5c-4a67-8116-6d01784b98da}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
@@ -17,8 +20,40 @@
 	<object class="MixerBusEffectChain" id="{97ddbc02-aa01-406a-a49f-52ad599b8948}">
 		<relationship name="effects">
 			<destination>{d4a8e532-e40c-4b4d-a29c-407784b6998d}</destination>
+			<destination>{8f3f57fb-6535-4e38-8936-6f7ea17ba18c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ab626d1-f71d-4bdf-9069-0a5be8150f36}" />
 	<object class="MixerBusFader" id="{d4a8e532-e40c-4b4d-a29c-407784b6998d}" />
+	<object class="MultibandEqEffect" id="{8f3f57fb-6535-4e38-8936-6f7ea17ba18c}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>1500</value>
+		</property>
+		<property name="qualityA">
+			<value>0.579999983</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{f19beb5c-e99b-4edf-bcbd-f15b2e3bd288}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{f19beb5c-e99b-4edf-bcbd-f15b2e3bd288}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gainA</value>
+		</property>
+		<property name="amount">
+			<value>-25</value>
+		</property>
+		<property name="attackTime">
+			<value>10</value>
+		</property>
+		<property name="releaseTime">
+			<value>1300</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{61e1c591-eabe-4587-9c61-da774546e9b8}</destination>
+		</relationship>
+	</object>
 </objects>
