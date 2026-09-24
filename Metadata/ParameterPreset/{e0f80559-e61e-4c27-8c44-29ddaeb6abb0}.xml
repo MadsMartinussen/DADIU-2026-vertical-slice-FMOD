@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e0f80559-e61e-4c27-8c44-29ddaeb6abb0}">
+		<property name="name">
+			<value>In or out of kitchen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{db87fef2-7bb5-4d15-ae8b-b885fed26c72}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3fc3c38c-f640-4831-a60b-cbfb6cc6de49}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3fc3c38c-f640-4831-a60b-cbfb6cc6de49}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>NotInKitchen</value>
+			<value>InKitchen</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
