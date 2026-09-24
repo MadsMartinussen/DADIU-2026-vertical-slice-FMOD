@@ -161,6 +161,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{b8c7dfdb-016a-47ce-8827-0d5cc08db41d}</destination>
 			<destination>{936f9f0f-38f9-4f83-b527-51b720121b03}</destination>
