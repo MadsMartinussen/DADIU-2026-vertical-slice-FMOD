@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{4b28dc7d-1f57-43c0-985b-f8dd8b1cc159}">
+	<object class="AudioFile" id="{1cec6d1c-bd54-48c2-a4e0-ed65badd1b6f}">
 		<property name="assetPath">
-			<value>SFX/room_tone_living_room_01.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>SFX/VO_N_SFP2_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>16</value>
+			<value>3.157845804988662</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2c97d36e-8add-4c87-af09-2bc658a56b69}</destination>
