@@ -800,7 +800,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f6d45fee-1109-4d69-97b2-0819e2bf662d}" />
-	<object class="SpatialiserEffect" id="{d84830f9-a0bf-48fc-b268-8c4b352a5489}" />
+	<object class="SpatialiserEffect" id="{d84830f9-a0bf-48fc-b268-8c4b352a5489}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>6</value>
+		</property>
+		<property name="minimumExtent">
+			<value>120</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{d98bf760-eb82-49e1-8c37-fc409d4b968f}">
 		<property name="inputFormat">
 			<value>2</value>

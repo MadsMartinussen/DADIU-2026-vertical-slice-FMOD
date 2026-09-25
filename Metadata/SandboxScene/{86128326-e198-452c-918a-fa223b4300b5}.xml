@@ -112,13 +112,13 @@
 	</object>
 	<object class="SandboxEmitter" id="{0935c293-779b-4869-ba59-33aa18abac57}">
 		<property name="positionX">
-			<value>-0.299999982</value>
+			<value>5.125</value>
 		</property>
 		<property name="positionZ">
-			<value>7.7750001</value>
+			<value>6.45000029</value>
 		</property>
 		<property name="rotationY">
-			<value>-93.8532715</value>
+			<value>-45.8901978</value>
 		</property>
 		<relationship name="sandboxParameters">
 			<destination>{468b06cd-e3fe-4404-8163-0eed2f6ff1b4}</destination>

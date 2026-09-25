@@ -143,6 +143,15 @@
 		<property name="distanceRolloffType">
 			<value>4</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>6</value>
+		</property>
+		<property name="minimumExtent">
+			<value>120</value>
+		</property>
 	</object>
 	<object class="MixerSend" id="{8e883f1b-967d-4895-848c-b386482e7dd7}">
 		<property name="inputFormat">

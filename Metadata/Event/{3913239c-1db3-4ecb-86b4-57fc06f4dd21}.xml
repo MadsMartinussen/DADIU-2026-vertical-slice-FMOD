@@ -392,6 +392,8 @@
 			<destination>{b1f06929-0c24-448f-936c-7d10c8fbc765}</destination>
 			<destination>{ee6d89fc-0192-4636-bc31-138c0c07a7bb}</destination>
 			<destination>{3b1726d1-b53b-428c-be89-9e74f817627d}</destination>
+			<destination>{ea205dac-4d7f-4c6f-b209-9367a141a31e}</destination>
+			<destination>{d46bf7d1-533d-4e18-8bbe-09ca0480f087}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{eaa2a49b-f2f5-4280-b3bf-bee5cf3c2303}" />
@@ -523,10 +525,10 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-56.6666679</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.755287886</value>
+			<value>0.012314871</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b1f06929-0c24-448f-936c-7d10c8fbc765}">
@@ -534,23 +536,39 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ee6d89fc-0192-4636-bc31-138c0c07a7bb}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0.70000000000000007</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-7.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3b1726d1-b53b-428c-be89-9e74f817627d}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.45000000000000001</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-10.5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ea205dac-4d7f-4c6f-b209-9367a141a31e}">
+		<property name="position">
+			<value>0.10875706114175868</value>
+		</property>
+		<property name="value">
+			<value>-19.9230785</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d46bf7d1-533d-4e18-8bbe-09ca0480f087}">
+		<property name="position">
+			<value>0.066384179529580603</value>
+		</property>
+		<property name="value">
+			<value>-24</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e47a33c9-2fbd-40f5-a040-09fdfb747b58}">

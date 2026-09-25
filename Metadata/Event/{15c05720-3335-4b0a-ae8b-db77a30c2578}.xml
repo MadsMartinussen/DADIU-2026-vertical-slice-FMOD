@@ -8,7 +8,7 @@
 			<value>Calendar</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a81d9935-9ae0-47f9-b0c9-1f67042f5b05}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{5f4e906c-8b28-43a8-a940-36e1a752c9a2}">
 		<relationship name="effects">
 			<destination>{157c1a51-1696-4474-a0eb-efa54da7db5f}</destination>
+			<destination>{8c32033b-4c59-4a10-b227-2d8397742603}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{eef739af-92fc-430f-81f2-fbe90be2571b}" />
@@ -116,6 +117,17 @@
 	</object>
 	<object class="MixerBusFader" id="{8279ce96-c823-4e89-bb6e-50dcfe25a17b}" />
 	<object class="MixerBusFader" id="{157c1a51-1696-4474-a0eb-efa54da7db5f}" />
+	<object class="SpatialiserEffect" id="{8c32033b-4c59-4a10-b227-2d8397742603}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>6</value>
+		</property>
+		<property name="minimumExtent">
+			<value>120</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{d3f38f90-2967-4ddb-999f-e407bf88597f}">
 		<property name="startOffset">
 			<value>1</value>

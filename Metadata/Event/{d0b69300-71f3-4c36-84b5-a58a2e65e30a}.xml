@@ -177,7 +177,17 @@
 			<destination>{d4ddd853-1484-4c68-b1ce-08159b8c909e}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{60c47b9c-c0cf-4042-8d6d-3acb01d3b1ff}" />
+	<object class="SpatialiserEffect" id="{60c47b9c-c0cf-4042-8d6d-3acb01d3b1ff}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>6</value>
+		</property>
+		<property name="minimumExtent">
+			<value>120</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{448ab40b-f1b4-46cb-8e45-4a06683b48d1}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
