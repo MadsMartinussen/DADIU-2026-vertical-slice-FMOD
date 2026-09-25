@@ -96,7 +96,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{35d47c61-2b9d-48ee-b689-88b698086879}">
 		<property name="volume">
-			<value>-2</value>
+			<value>4</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f9010967-bcd1-40ff-9f55-22be53752479}</destination>
@@ -223,6 +223,7 @@
 		<relationship name="effects">
 			<destination>{0aa0758a-dd2e-407c-a1d0-acb898c7f019}</destination>
 			<destination>{e1aaab0a-6fe5-479c-92f7-bc239e160584}</destination>
+			<destination>{566c7276-1754-4e14-a603-cc840415b150}</destination>
 			<destination>{65dfcb22-c9b6-4b57-8dcf-4f4c4e27b405}</destination>
 			<destination>{c7d1774f-75b5-4e8c-b3fa-e7b33cf2de55}</destination>
 			<destination>{667b0770-33ba-41e9-aa12-7a0e3866dded}</destination>
@@ -471,6 +472,20 @@
 		</property>
 		<property name="minimumExtent">
 			<value>126</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{566c7276-1754-4e14-a603-cc840415b150}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>115.703506</value>
+		</property>
+		<property name="qualityA">
+			<value>0.25999999</value>
+		</property>
+		<property name="gainA">
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="MixerSend" id="{65dfcb22-c9b6-4b57-8dcf-4f4c4e27b405}">

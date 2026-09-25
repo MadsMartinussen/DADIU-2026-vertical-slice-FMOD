@@ -1676,11 +1676,14 @@
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>120</value>
+			<value>96</value>
 		</property>
 		<property name="volume">
 			<value>8</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{4d79075e-12db-4153-9d6b-f2a796a972c6}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{3913239c-1db3-4ecb-86b4-57fc06f4dd21}</destination>
 		</relationship>
@@ -1997,6 +2000,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7e7a06e3-feb1-485b-92d9-573a96406645}" />
+	<object class="ADSRModulator" id="{4d79075e-12db-4153-9d6b-f2a796a972c6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>2400</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="Automator" id="{08e18ee2-8fba-40b8-b2d6-fc0ae140bba7}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -2010,7 +2027,7 @@
 			<value>volume</value>
 		</property>
 		<property name="speedAscending">
-			<value>0.059999998658895493</value>
+			<value>0.23999999463558197</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{e2a9d15f-de22-464f-8af3-ce62b20050b5}">
@@ -2261,7 +2278,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d28a1050-1ad4-4ab6-a2cb-1ccc30014eb2}">

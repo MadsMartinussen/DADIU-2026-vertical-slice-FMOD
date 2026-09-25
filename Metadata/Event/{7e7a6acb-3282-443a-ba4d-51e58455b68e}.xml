@@ -62,6 +62,9 @@
 		<property name="minimumDistance">
 			<value>2</value>
 		</property>
+		<property name="maximumDistance">
+			<value>13</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{741b50b1-f743-483c-8dfe-8c04d953791d}" />
 	<object class="Timeline" id="{464a3784-7e1a-43c2-b517-6fcbd42ddcf8}">
@@ -73,6 +76,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cc7314cb-1278-485f-9afd-0201035f8f36}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b45c5aad-01a2-4abb-8aec-a5399ad8634e}</destination>
 		</relationship>
@@ -172,7 +178,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e596f3a1-cbff-4bdf-9569-524936ad1771}" />
-	<object class="SpatialiserEffect" id="{47d3364a-85ab-49a7-a105-bc03e9fbfbf6}" />
+	<object class="SpatialiserEffect" id="{47d3364a-85ab-49a7-a105-bc03e9fbfbf6}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4</value>
+		</property>
+		<property name="minimumExtent">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="FlangerEffect" id="{10f97a28-aaa2-49b3-a54e-4686e9e35d6a}">
 		<property name="rate">
 			<value>0.0149999997</value>
