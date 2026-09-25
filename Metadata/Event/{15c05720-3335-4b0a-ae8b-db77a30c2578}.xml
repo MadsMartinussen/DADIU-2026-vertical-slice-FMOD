@@ -108,7 +108,7 @@
 			<value>10</value>
 		</property>
 		<property name="playlistMode">
-			<value>4</value>
+			<value>3</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{394f2df8-a3b0-49f5-aab6-6f1f9e4e9cbf}</destination>
