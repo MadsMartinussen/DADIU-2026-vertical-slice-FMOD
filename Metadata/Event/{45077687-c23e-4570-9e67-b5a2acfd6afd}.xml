@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{45077687-c23e-4570-9e67-b5a2acfd6afd}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Title Screen</value>
 		</property>
@@ -29,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{f6650894-b29e-40e4-91ce-ea8457347b25}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{f4af9d58-d961-4afa-8dc4-5f4fcb2d6c1e}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{f4a367ba-02c8-4fc9-89ef-c30a20c2d15d}">
 		<relationship name="masterBus">
@@ -56,7 +62,7 @@
 			<destination>{90b08897-e3a8-4430-ae42-99da87a9c73c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{390c7ecc-9605-46eb-a09f-661b76399b72}</destination>
+			<destination>{84b8cbb1-4d5c-4a67-8116-6d01784b98da}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7ed42499-6ee6-4776-91fb-2f246f8ea9b7}" />
@@ -76,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7017dce9-675d-4b12-8cdf-ab6bee3ec15b}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c4035742-9b6e-445c-8ae7-87a90bf5752a}</destination>
 		</relationship>

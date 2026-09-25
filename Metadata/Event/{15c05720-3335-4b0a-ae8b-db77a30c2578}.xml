@@ -110,6 +110,9 @@
 		<property name="playlistMode">
 			<value>4</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{394f2df8-a3b0-49f5-aab6-6f1f9e4e9cbf}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{d3f38f90-2967-4ddb-999f-e407bf88597f}</destination>
 			<destination>{0bab4069-27a9-40c3-a5dd-d46827329386}</destination>
@@ -126,6 +129,14 @@
 		</property>
 		<property name="minimumExtent">
 			<value>120</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{394f2df8-a3b0-49f5-aab6-6f1f9e4e9cbf}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4.16666698</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{d3f38f90-2967-4ddb-999f-e407bf88597f}">
